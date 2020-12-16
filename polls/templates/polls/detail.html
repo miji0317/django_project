@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+{% extends 'base.html' %}
+
+{% block title %}Polls index{% endblock %}
+{% block content %}
+
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
-</head>
+
 <body>
 <h1>{{question.question_text}}</h1>
 
@@ -19,6 +19,5 @@
 {% endfor %}
 <input type="submit" value="Vote">
 </form>
-
-</body>
-</html>
+<a href="{% url 'polls:index' %}">Go Back Index</a>
+{% endblock %}

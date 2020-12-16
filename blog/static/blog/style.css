@@ -1,5 +1,5 @@
 h1 a {
-    color: #FCA205;
+    color: #B284B7;
     font-family: 'Lobster';
 }
 
@@ -8,7 +8,7 @@ body {
 }
 
 .page-header {
-    background-color: #ff9400;
+    background-color: #F2C39C;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -25,6 +25,7 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
+    color: #B284B7;
 }
 
 .date {
@@ -52,4 +53,9 @@ h1, h2, h3, h4 {
 
 .post h1 a, .post h1 a:visited {
     color: #000000;
+}
+
+.nav-link {
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
 }
